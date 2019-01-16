@@ -15,23 +15,23 @@
 ## File descriptions
 
 <ul>
-<li>"Conductance.m" (function that returns the equivalent conduction of our fin)<\li> 
-<li>"R123-R245FA.xls" (Excel file containing the coolant properties)<\li> 
-<li>"R245FA.m" (script loading the coolant properties)<\li> 
-<li>"Rg_initial.m" (function that calculates Rg at an instant t)<\li> 
-<li>"calcul_Rg_comp.m" (script calling ode45 to solve the equations on Rg, x and P)<\li> 
-<li>"elbow_geometry.txt" (text file with geometry data, used by the code)<\li> 
-<li>"elbow_geometry.xlsx" (Excel file containing the geometry data)<\li> 
-<li>"main.m" (main script)<\li>  
-<li>"pressure_Awad.m" (script on Awad approximation for pressure loss)<\li>
-<li>"pressure_Baroczy.m" (script on Baroczy approximation for pressure loss)<\li>
-<li>"pressure_L_M.m" (script on Lockhart & Martinelli approximation for pressure loss)<\li>        
-<li>"skin_friction.m" (function that returns the X parameter associated with skin friction)<\li>
-<li>"temp_G_W.m" (function that calculates temperature with Gunger & Winterton model)<\li>
-<li>"temp_K.m" (subroutine that calculates temperature with Kandlikar model)<\li>
-<li>"temp_S_G.m" (script that calculates temperature with Schrock & Grossman model)<\li>
-<li>"write_results.m" (script writing results of the model with gravity in a .txt)<\li>
-<li>"write_results_no_g.m" (script writing results of the model with no gravity in a .txt)<\li>
+<li>"Conductance.m" (function that returns the equivalent conduction of our fin)</li> 
+<li>"R123-R245FA.xls" (Excel file containing the coolant properties)</li> 
+<li>"R245FA.m" (script loading the coolant properties)</li>
+<li>"Rg_initial.m" (function that calculates Rg at an instant t)</li> 
+<li>"calcul_Rg_comp.m" (script calling ode45 to solve the equations on Rg, x and P)</li> 
+<li>"elbow_geometry.txt" (text file with geometry data, used by the code)</li>
+<li>"elbow_geometry.xlsx" (Excel file containing the geometry data)</li> 
+<li>"main.m" (main script)</li> 
+<li>"pressure_Awad.m" (script on Awad approximation for pressure loss)</li>
+<li>"pressure_Baroczy.m" (script on Baroczy approximation for pressure loss)</li>
+<li>"pressure_L_M.m" (script on Lockhart & Martinelli approximation for pressure loss)</li>   
+<li>"skin_friction.m" (function that returns the X parameter associated with skin friction)</li>
+<li>"temp_G_W.m" (function that calculates temperature with Gunger & Winterton model)</li>
+<li>"temp_K.m" (subroutine that calculates temperature with Kandlikar model)</li>
+<li>"temp_S_G.m" (script that calculates temperature with Schrock & Grossman model)</li>
+<li>"write_results.m" (script writing results of the model with gravity in a .txt)</li>
+<li>"write_results_no_g.m" (script writing results of the model with no gravity in a .txt)</li>
 </ul>
 
 ### Running the program
