@@ -9,21 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.
-
-In Ubuntu, Mint and Debian you can install GFortran like this:
-
-    sudo apt-get install gfortran
-    
-Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:
-
-    sudo apt-get update
-    sudo apt-get install paraview
-
-For other Linux flavors, OS X and Windows, packages are available at:
-
-https://gcc.gnu.org/wiki/GFortranBinaries for GFortran    
-https://www.paraview.org/download/ for ParaView
+The code being implemented in MATLAB, it requires the MATLAB softwre which is licensed under the <a href="https://www.mathworks.com/">MathWorks</a> sofware company
 
 
 ## File descriptions
