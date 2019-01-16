@@ -71,6 +71,10 @@
 <p align="justify">To compare the pressure loss results in the evaporator with different models, the scripts named "pressure_****.m" needs to be executed. However, this first requires running the main program once in order to get the data on the evolution of the title x (vapor mass fraction), and the geometry discretisation. Moreover, if a graphic comparison of the different models is required, the subroutine "pressure_L_M.m" must be executed before the others.</p>
 
 
+<p align="center">
+<img src="https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/Example_Results/analytic_exp_gbm.png" width="500" height="350"> <img src="https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/Example_Results/Hists_fig2.jpg" width="512" height="512" >
+</p>
+
 
 ## Contributing
 
