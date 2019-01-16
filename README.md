@@ -51,4 +51,18 @@
 
 ### Running the program
 
-<p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in txt files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p> 
+<p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in txt files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p>
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **David Cicoria** - *Initial work* - [DavidCico](https://github.com/DavidCico)
+
+See also the list of [contributors](https://github.com/DavidCico/Study-of-buy-and-hold-investment/graphs/contributors) who participated in this project.
