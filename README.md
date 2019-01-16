@@ -62,7 +62,9 @@
 
 <p align="justify"The different results will be plotted and computed with MATLAB, and exported in .txt format: "results_with_gravity.txt" and "results_without_gravity.txt".</p>
 
-<p align="justify">To compare the pressure loss results in the evaporator with different models, the scripts named "pressure_****.m" needs to be executed. However, this first requires running the main program one in order to get the data on the evolution of the title x (vapor mass fraction), and the geometry discretisation. Moreover, if a graphic comparison of the different models is required, the subroutine "pressure_L_M.m" must be executed before the others.</p>
+<p align="justify">To compare the pressure loss results in the evaporator with different models, the scripts named "pressure_****.m" needs to be executed. However, this first requires running the main program once in order to get the data on the evolution of the title x (vapor mass fraction), and the geometry discretisation. Moreover, if a graphic comparison of the different models is required, the subroutine "pressure_L_M.m" must be executed before the others.</p>
+
+
 
 ## Contributing
 
