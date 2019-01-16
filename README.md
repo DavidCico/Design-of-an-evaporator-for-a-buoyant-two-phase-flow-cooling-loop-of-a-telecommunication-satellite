@@ -53,6 +53,15 @@
 
 <p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in txt files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p>
 
+<p align="justify">After starting the program, a choice will be asked to the user, to know which type of simulation he is willing to run:</p>
+<ul>
+	<li>2 with and without gravity</li>
+	<li>1 with gravity only</li>
+	<li>0 with no gravity</li>
+</ul>
+
+<p align="justify"The different results will be plotted and computed with MATLAB, and exported in .txt format: "results_with_gravity.txt" and "results_without_gravity.txt".</p>
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
