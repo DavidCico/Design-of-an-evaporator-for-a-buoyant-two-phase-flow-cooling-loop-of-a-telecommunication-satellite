@@ -12,7 +12,7 @@
 <p align="justify">The code being implemented in MATLAB, it requires the <a href="https://www.mathworks.com/products/matlab.html">MATLAB</a> software, which is licensed under the <a href="https://www.mathworks.com/">MathWorks</a>sofware company. MATLAB can be downloaded at the following link <a href="https://www.mathworks.com/downloads/">https://www.mathworks.com/downloads/</a>, and more information can be found about the license fee on the website.</p>
 
 
-## File descriptions
+### File descriptions
 
 <ul>
 <li>"Conductance.m" (function that returns the equivalent conduction of our fin)</li> 
@@ -48,9 +48,6 @@
 	- component width (in m)
 	- number of passages of the tube inside component (if a component is present)
 
-#### Coolant data file
-
-<p align="justify">Coolant data file is in .xls (Excel) format, and contains R245FA and R143 fluid properties for liquid and gaseous phase. The description of each column is inside the file itself.</p>
 
 ### Running the program
 
