@@ -48,6 +48,12 @@
 	- component width (in m)
 	- number of passages of the tube inside component (if a component is present)
 
+<ul>
+<li><p align="justify">"Bibliography" directory contains 4 research papers in pdf format for some background on the equations implemented inside the code</p></li>
+<li>"Example_plots" contains 2 figures that are shown below</li>
+<li><p align="justify">"Report.pdf" is the report of the project explaining the different equations used in the MATLAB code, and showing some of the results obtained under different conditions.</p></li>
+</ul>
+
 
 ### Running the program
 
