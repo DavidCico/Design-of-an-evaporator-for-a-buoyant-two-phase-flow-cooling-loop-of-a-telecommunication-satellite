@@ -34,6 +34,27 @@
 <li>"write_results_no_g.m" (script writing results of the model with no gravity in a .txt)</li>
 </ul>
 
+	* Geometry file
+	There are normally two files describing the geometry of the case : a .txt and a .xlsx (excel 2007+). If modification
+	is needed, then first the excel file should be modified and then be saved in .txt, in order to keep the MATLAB tabulations.
+	Furthermore, the "." must be used for describing floating numbers.
+	The geometry has been separated in different elements, each of these having thier own particularity (component, elbow, nothing)
+ 	Here is the meaning of each column :
+		- initial heigt/position of the element (en mm)
+		- final heigh of the element (en mm)
+		- elbow (1 if the block is one, 0 else)
+		- surface energy flux (if a component is present)
+		- gravity value (0 in an elbow)
+		- component power (if there is a component)
+		- length of the element (en m)
+		- component width (en m)
+		- number of passages of the tube inside component (if a component is present)
+
+
+	* Coolant data file
+	Coolant data file is in .xls (Excel) format, and contains R245FA and R143 fluid properties
+	for liquid and gaseous phase. The description of each column is inside the file itself
+
 ### Running the program
 
 1. Input numerical values in the file physical_data.txt
