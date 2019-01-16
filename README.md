@@ -51,26 +51,4 @@
 
 ### Running the program
 
-1. Input numerical values in the file physical_data.txt
-
-        80            ! n  number of mesh cells in y    
-        70            ! m  number of mesh cells in x    
-        5             ! Length L1 of the domain    
-        2             ! Height L2 (Left side of the domain)    
-        2             ! Height L3 (Right side of the domain)     
-        0.01          ! Diffusion coefficient    
-        0             ! Velocity U (x direction)     
-        0             ! Velocity V (y direction)          
-        5             ! Final time    
-        0.9           ! CFL number    
-        0.4           ! Fourier number    
-
-    Modifying and tuning these values in order to have an orthogonal mesh or not, diffusion and/or advection...
-
-2. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
-
-3. Launch the executable , which will create the mesh and run the discretised calculation on the latter.
-
-4. Observe the concentration field on the domain using Paraview (open sol.pvd).
-
-5. Remove the created files thanks to the commands 'make clean' and 'make solclean'.
+<p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in txt files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p> 
