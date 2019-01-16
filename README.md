@@ -72,7 +72,7 @@
 
 
 <p align="center">
-<img src="https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/Example_Results/analytic_exp_gbm.png" width="500" height="350"> <img src="https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/Example_Results/Hists_fig2.jpg" width="512" height="512" >
+<img src="https://github.com/DavidCico/Design-of-an-evaporator-for-a-buoyant-two-phases-flow-cooling-loop-of-a-telecommunication-satellite/blob/master/Example_plots/Vapour_fraction_tube.jpg" width="500" height="350"> <img src="https://github.com/DavidCico/Design-of-an-evaporator-for-a-buoyant-two-phases-flow-cooling-loop-of-a-telecommunication-satellite/blob/master/Example_plots/Velocity_comparison_tube.jpg" width="512" height="512" >
 </p>
 
 
