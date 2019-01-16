@@ -34,12 +34,10 @@
 <li>"write_results_no_g.m" (script writing results of the model with no gravity in a .txt)</li>
 </ul>
 
-* Geometry file
-There are normally two files describing the geometry of the case : a .txt and a .xlsx (excel 2007+). If modification
-is needed, then first the excel file should be modified and then be saved in .txt, in order to keep the MATLAB tabulations.
-Furthermore, the "." must be used for describing floating numbers.
-The geometry has been separated in different elements, each of these having thier own particularity (component, elbow, nothing)
- Here is the meaning of each column :
+--> Geometry files
+
+<p align="justify">There are normally two files describing the geometry of the case : a .txt and a .xlsx (excel 2007+). If modification is needed, then first the excel file should be modified and then be saved in .txt, in order to keep the MATLAB tabulations. Furthermore, the "." must be used for describing floating numbers. The geometry has been separated in different elements, each of these having thier own particularity (component, elbow, nothing). Here is the meaning of each column:</p>
+ 
 	- initial heigt/position of the element (en mm)
 	- final heigh of the element (en mm)
 	- elbow (1 if the block is one, 0 else)
