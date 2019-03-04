@@ -79,7 +79,7 @@
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/DavidCico/Study-of-buy-and-hold-investment/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/DavidCico/Design-of-an-evaporator-for-a-buoyant-two-phase-flow-cooling-loop-of-a-telecommunication-satellite/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -89,4 +89,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **David Cicoria** - *Initial work* - [DavidCico](https://github.com/DavidCico)
 
-See also the list of [contributors](https://github.com/DavidCico/Study-of-buy-and-hold-investment/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/DavidCico/Design-of-an-evaporator-for-a-buoyant-two-phase-flow-cooling-loop-of-a-telecommunication-satellite/graphs/contributors) who participated in this project.
