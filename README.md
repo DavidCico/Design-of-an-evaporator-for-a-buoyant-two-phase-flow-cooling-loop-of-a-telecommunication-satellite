@@ -15,28 +15,28 @@
 ### File descriptions
 
 <ul>
-<li>"Conductance.m" (function that returns the equivalent conduction of our fin)</li> 
-<li>"R123-R245FA.xls" (Excel file containing the coolant properties)</li> 
-<li>"R245FA.m" (script loading the coolant properties)</li>
-<li>"Rg_initial.m" (function that calculates Rg at an instant t)</li> 
-<li>"calcul_Rg_comp.m" (script calling ode45 to solve the equations on Rg, x and P)</li> 
-<li>"elbow_geometry.txt" (text file with geometry data, used by the code)</li>
-<li>"elbow_geometry.xlsx" (Excel file containing the geometry data)</li> 
-<li>"main.m" (main script)</li> 
-<li>"pressure_Awad.m" (script on Awad approximation for pressure loss)</li>
-<li>"pressure_Baroczy.m" (script on Baroczy approximation for pressure loss)</li>
-<li>"pressure_L_M.m" (script on Lockhart & Martinelli approximation for pressure loss)</li>   
-<li>"skin_friction.m" (function that returns the X parameter associated with skin friction)</li>
-<li>"temp_G_W.m" (function that calculates temperature with Gunger & Winterton model)</li>
-<li>"temp_K.m" (subroutine that calculates temperature with Kandlikar model)</li>
-<li>"temp_S_G.m" (script that calculates temperature with Schrock & Grossman model)</li>
-<li>"write_results.m" (script writing results of the model with gravity in a .txt)</li>
-<li>"write_results_no_g.m" (script writing results of the model with no gravity in a .txt)</li>
+<li>"<em>Conductance.m</em>" (function that returns the equivalent conduction of our fin)</li> 
+<li>"<em>R123-R245FA.xls</em>" (Excel file containing the coolant properties)</li> 
+<li>"<em>R245FA.m</em>" (script loading the coolant properties)</li>
+<li>"<em>Rg_initial.m</em>" (function that calculates Rg at an instant t)</li> 
+<li>"<em>calcul_Rg_comp.m</em>" (script calling ode45 to solve the equations on Rg, x and P)</li> 
+<li>"<em>elbow_geometry.txt</em>" (text file with geometry data, used by the code)</li>
+<li>"<em>elbow_geometry.xlsx</em>" (Excel file containing the geometry data)</li> 
+<li>"<em>main.m</em>" (main script)</li> 
+<li>"<em>pressure_Awad.m</em>" (script on Awad approximation for pressure loss)</li>
+<li>"<em>pressure_Baroczy.m</em>" (script on Baroczy approximation for pressure loss)</li>
+<li>"<em>pressure_L_M.m</em>" (script on Lockhart & Martinelli approximation for pressure loss)</li>   
+<li>"<em>skin_friction.m</em>" (function that returns the X parameter associated with skin friction)</li>
+<li>"<em>temp_G_W.m</em>" (function that calculates temperature with Gunger & Winterton model)</li>
+<li>"<em>temp_K.m</em>" (subroutine that calculates temperature with Kandlikar model)</li>
+<li>"<em>temp_S_G.m</em>" (script that calculates temperature with Schrock & Grossman model)</li>
+<li>"<em>write_results.m</em>" (script writing results of the model with gravity in a .txt)</li>
+<li>"<em>write_results_no_g.m</em>" (script writing results of the model with no gravity in a .txt)</li>
 </ul>
 
 #### Geometry files
 
-<p align="justify">There are normally two files describing the geometry of the case : a .txt and a .xlsx (excel 2007+). If modification is needed, then first the excel file should be modified and then be saved in .txt, in order to keep the MATLAB tabulations. Furthermore, the "." must be used for describing floating numbers. The geometry has been separated in different elements, each of these having thier own particularity (component, elbow, nothing). Here is the meaning of each column:</p>
+<p align="justify">There are normally two files describing the geometry of the case : a "<em>.txt</em>" and a "<em>.xlsx</em>" (excel 2007+). If modification is needed, then first the excel file should be modified and then be saved in <em>txt</em> format, in order to keep the MATLAB tabulations. Furthermore, the "." must be used for describing floating numbers. The geometry has been separated in different elements, each of these having their own particularity (component, elbow, nothing). Here is the meaning of each column:</p>
  
 	- initial heigt/position of the element (in mm)
 	- final heigh of the element (in mm)
@@ -49,15 +49,15 @@
 	- number of passages of the tube inside component (if a component is present)
 
 <ul>
-<li><div align="justify">"Bibliography" directory contains 4 research papers in pdf format for some background on the equations implemented inside the code.</div></li>
-<li>"Example_plots" contains 2 figures that are shown below.</li>
-<li><div align="justify">"Report.pdf" is the report of the project explaining the different equations used in the MATLAB code, and showing some of the results obtained under different conditions.</div></li>
+	<li><div align="justify">"<em>Bibliography</em>" directory contains 4 research papers in pdf format for some background on the equations implemented inside the code.</div></li>
+	<li>"<em>Example_plots</em>" contains 2 figures that are shown below.</li>
+	<li><div align="justify">"<em>Report.pdf</em>" is the report of the project explaining the different equations used in the MATLAB code, and showing some of the results obtained under different conditions.</div></li>
 </ul>
 
 
 ### Running the program
 
-<p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in txt files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p>
+<p align="justify">To launch the program, it just requires to execute the script <b>main.m</b> on MATLAB. This is the main script of the code that regroups all the other subroutines, get the different data, plot the wanted curves, and write results in <em>txt</em> files. For good performance of the code, and if the geometry data and coolant properties need to be modified, then the same order of magnitude must be kept for the different parameters.</p>
 
 <p align="justify">After starting the program, a choice will be asked to the user, to know which type of simulation he is willing to run:</p>
 <ul>
@@ -66,9 +66,9 @@
 	<li>0 with no gravity</li>
 </ul>
 
-<p align="justify"The different results will be plotted and computed with MATLAB, and exported in .txt format: "results_with_gravity.txt" and "results_without_gravity.txt".</p>
+<p align="justify"The different results will be plotted and computed with MATLAB, and exported in <em>txt</em> format: "<em>results_with_gravity.txt</em>" and "<em>results_without_gravity.txt</em>".</p>
 
-<p align="justify">To compare the pressure loss results in the evaporator with different models, the scripts named "pressure_****.m" needs to be executed. However, this first requires running the main program once in order to get the data on the evolution of the title x (vapor mass fraction), and the geometry discretisation. Moreover, if a graphic comparison of the different models is required, the subroutine "pressure_L_M.m" must be executed before the others.</p>
+<p align="justify">To compare the pressure loss results in the evaporator with different models, the scripts named "<em>pressure_****.m</em>" need to be executed. However, this first requires running the main program once in order to get the data on the evolution of the title x (vapor mass fraction), and the geometry discretisation. Moreover, if a graphic comparison of the different models is required, the subroutine "<em>pressure_L_M.m</em>" must be executed before the others.</p>
 
 <p align="justify">Below, are two of the figures that can be generated by the code. We can see here for instance, the evolution of both vapour mass fraction and velocity against the position inside the evaporator's tube. The reader is referred to the <a href="https://github.com/DavidCico/Design-of-an-evaporator-for-a-buoyant-two-phases-flow-cooling-loop-of-a-telecommunication-satellite/blob/master/Report.pdf">project report</a> for more information on the different results obtained through the numerical simulations.</p>
 
